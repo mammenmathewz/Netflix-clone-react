@@ -5,6 +5,7 @@ import hero_banner from '../../assets/hero_banner.jpg'
 import hero_title from '../../assets/hero_title.png'
 import play_icon from '../../assets/play_icon.png'
 import info_icon from '../../assets/info_icon.png' 
+import TitleCards from '../../components/TitleCards/TitleCards'
 
 
 
@@ -21,8 +22,8 @@ function Home (){
         <div className="hero-btns">
           <button className='btn'><img src={play_icon}></img>Play</button>
           <button className='btn dark-btn'><img src={info_icon}></img>More info</button>
-
         </div>
+        <TitleCards/>
       </div>
     </div>
     </>
