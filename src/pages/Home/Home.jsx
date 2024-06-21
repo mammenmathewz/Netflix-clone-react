@@ -26,6 +26,14 @@ function Home (){
         <TitleCards/>
       </div>
     </div>
+    <div className="more-cards">
+    <TitleCards title={'Blockbuster Movis'}/>
+    <TitleCards title={'Only on Netflix'}/>
+    <TitleCards title={'Upcomming'}/>
+    <TitleCards title={'Topics for you'}/>
+
+
+    </div>
     </>
   )
 }
