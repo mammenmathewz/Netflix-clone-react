@@ -19,7 +19,7 @@ function Home (){
       <img src={hero_banner} className='banner-img'></img>
       <div className="hero-caption">
         <img src={hero_title} alt="" srcset="" className='caption-img'/>
-        <p>gsukyhsdfkj usifda huiswafi hiufswaiauwsefiwoahjklds aiudsayf sd</p>
+        <p></p>
         <div className="hero-btns">
           <button className='btn'><img src={play_icon}></img>Play</button>
           <button className='btn dark-btn'><img src={info_icon}></img>More info</button>
